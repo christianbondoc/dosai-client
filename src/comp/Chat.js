@@ -14,7 +14,7 @@ class App extends Component {
 	}
 	
 	componentDidMount() {
-		this.socket = mySocket("http://dosai.herokuapp.com/");
+		this.socket = mySocket(" https://dosai-test-server.herokuapp.com/");
 	}
 	
 	userNameUpdate = (e) => {
